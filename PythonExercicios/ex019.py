@@ -1,2 +1,5 @@
 #Um professor quer sortear um dos seus alunos para apagar o quadro.
-#Faça um programa que ajud ele, lendo o nome deles e escrevendo o nome do escolhido.
+#Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido.
+from random import choice
+alunos = choice(['Tiago', 'Lucas', 'Gessica', 'Erica'])
+print(alunos)
