@@ -5,10 +5,8 @@
 #dezena: 3
 #centena: 8
 #milhar: 1
-
-n = str(input('Digite um número entre 0 a 9999: '))
-print('Analisando o número...')
-print('A unidade desse número é: {}'.format(n[3]))
-print('A dezena desse número é: {}'.format(n[2]))
-print('A centena desse número é: {}'.format(n[1]))
-print('O milhar desse número é: {}'.format(n[0]))
+n = str(input('Digite um valor entre 0 e 9999: '))
+print('A unidade desse valor é: {}'.format(n[3]))
+print('A dezena desse valor é: {}'.format(n[2]))
+print('A centena desse valor é: {}'.format(n[1]))
+print('A milhar desse valor é: {}'.format(n[0]))
