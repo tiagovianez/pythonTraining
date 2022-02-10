@@ -8,4 +8,4 @@ if n == 4:
 elif n > 5:
     print('Valor inválido, tente novamente!')
 else:
-    print('Infelizmente não foi dessa vez, você perdeu!')
+    print('InfeAlizmente não foi dessa vez, você perdeu!')
