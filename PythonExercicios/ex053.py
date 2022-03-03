@@ -1,10 +1,9 @@
 #CRIE UM PROGRAMA QUE LEIA UMA 'FRASE' E DIGA SE ELA É "PALINDRONO" OU NÃO, DESCONSIDERANDO OS ESPAÇOS.
-phrase = str(input('write a phrase or word: ')).strip().upper()
-words = phrase.split()
-together = ''.join(words)
-print('You write a phrase {}'.format(together))
-if together == together[::-1]:
-    print('IS POLIDROME')
+phrase = str(input('Write the phrase or word: ')).strip().upper()
+word = phrase.split()
+together = ''.join(word)
+inverse = together[::-1]
+if together == inverse:
+    print('Is PALINDRONE')
 else:
-    print('NOT POLINDROME')
-print(together[::-1])
+    print('Is NOT Palindrone')
